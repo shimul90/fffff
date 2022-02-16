@@ -1,0 +1,351 @@
+/* Roboto font connect */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+/* header section style start */
+
+.header_section {
+    background-image:url(../images/header.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.header_contant {
+    padding: 100px 120px;
+}
+
+.header_contant .header_title h1 {
+    font-size: 55px;
+    color: #fff;
+}
+
+.header_items {
+    color: #fff;
+    margin-top: 160px;
+    display: flex;
+}
+
+.header_items .items_one,
+.catagory_two {
+    width: 350px;
+}
+
+.fa-solid,
+.fas {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    margin-top: 35px;
+    font-size: 40px;
+    color: yellow;
+}
+
+
+/* header section style end */
+
+
+
+/* Learn More start */
+
+.section_part_one{
+    padding: 50px 120px;
+    background-color: #141824;
+}
+
+.learn_more_part {
+    margin: 0px auto;
+    color: #fff;
+    padding: 66px 100px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    text-align: center;
+}
+
+.learn_more_part i {
+    color: #fff;
+    padding: 18px;
+}
+
+.learn_more_part h1 {
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.learn_more_part p{
+	font-size:15.2px;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.services .card {
+    padding: 50px 30px;
+    position: relative;
+}
+
+.card_items::before {
+    content: "";
+    position: absolute;
+    width: 234px;
+    height: 36px;
+    left: 69px;
+    top: 43px;
+    background-color: #F1C50E;
+}
+
+.services .card h3 {
+    color: #fff;
+    position: absolute;
+    z-index: 1;
+}
+
+.services .card span {
+    background-color: rgb(223, 223, 72);
+}
+
+.services .card p {
+    color: #fff;
+    margin-top: 50px;
+	
+}
+.card p{
+	font-size:14px;
+}
+
+/* Learn More end */
+
+
+/* Tour section start */
+
+.section_part_tour{
+    background-color: #E8EAE3;
+    padding: 100px 120px;
+}
+
+.access_part_left {
+    padding: 65px 25px;
+    position: relative;
+}
+
+.access_part_title::before {
+    content: "";
+    position: absolute;
+    width: 267px;
+    height: 40px;
+    left: 98px;
+    top: 131px;
+    background-color: #F1C50E;
+}
+
+.access_part_left h1 {
+    font-size: 30px;
+    font-weight: 400;
+    position: absolute;
+    z-index: 1;
+}
+
+.access_part_left p {
+    font-weight: 400;
+    padding: 95px 0px 35px 0px;
+}
+
+.access_part_left .button_part {
+    padding: 8px 20px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    font-size: 15px;
+}
+
+.access_part_left .button_part:hover {
+    background-color: transparent;
+    border: 1px solid black;
+    color: rgb(15, 14, 14);
+    cursor: pointer;
+}
+
+.access_part {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.access_part_right img {
+    width: 80%;
+    height: 414px;
+}
+
+.access_part_left i {
+    font-size: 51px;
+    color: #efce55;
+    padding: 7px;
+}
+
+
+/* Tour section end */
+
+
+/* Galary section  part start */
+
+.gallery-section_part {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.gallery-section_part .items img {
+    width: 100%;
+    height: 320px;
+}
+
+
+/* Galary section part end */
+
+/* Start Earning section start */
+
+.section_part_earning {
+    background-color: #E8EAE3;
+    padding: 98px 120px;
+}
+
+.start_earning_part {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.start_earning_contant_title {
+    position: relative;
+    margin: 30px 0px;
+}
+
+.start_earning_before::before {
+    content: "";
+    position: absolute;
+    width: 267px;
+    height: 40px;
+    left: 92px;
+    top: -3px;
+    background-color: #F1C50E;
+}
+
+.start_earning_before h1 {
+    position: absolute;
+    z-index: 1;
+}
+
+.start_earning_contant_title p {
+    padding-top: 54px;
+	font-size: 17px;
+}
+
+.start_earning_pic img {
+    width: 80%;
+    height: 414px;
+}
+
+.start_earning_contant_info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.info_one h3,
+.info_two h3 {
+    margin: 17px 0px;
+}
+
+.info_one i,
+.info_two i {
+    color: #F0C927;
+}
+
+.info_one{
+	padding:10px;
+}
+.info_two{
+	padding:10px;
+}
+.info_one p{
+	font-size: 20px;
+}
+.info_two p{
+	font-size: 18px;
+}
+/* Start Earning section end */
+
+
+/* footer section start */
+
+footer {
+    padding: 100px 120px;
+    background-color: #141824;
+}
+
+.footer_part {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact_us {
+    color: #fff;
+    position: relative;
+}
+
+.contact_us_title h1 {
+    z-index: 1;
+    position: absolute;
+}
+
+.contact_us_title::before {
+    content: "";
+    position: absolute;
+    width: 234px;
+    height: 36px;
+    left: 59px;
+    top: 65px;
+    background-color: #F1C50E;
+}
+
+.contact_us_small {
+    padding: 61px 42px 20px 0px;
+}
+.contact_us_small p{
+	font-size: 15px;
+}
+.contact_us i {
+    font-size: 42px;
+    padding: 10px;
+    color: #c5ab38;
+}
+
+.social_icons i {
+    font-size: 26px;
+    color: #FFB600;
+}
+
+
+
+
+form {
+    text-align: center;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+    width: 69%;
+    background-color: transparent;
+    padding: 10px 15px;
+    border: 1px solid white;
+    color: #fff;
+}
+
+input[type=submit] {
+    padding: 10px 15px;
+}
+
+/* footer section end */

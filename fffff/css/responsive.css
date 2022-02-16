@@ -1,0 +1,99 @@
+@media only screen and (max-width: 480px) {
+    /* header section responsive start */
+    .header_section {
+        height: 550px;
+    }
+    .header_contant {
+        padding: 15px 25px;
+    }
+    .header_contant .header_title h1 {
+        font-size: 32px;
+    }
+    .header_catagory {
+        margin-top: 40px;
+        flex-direction: column;
+    }
+    .header_catagory .catagory_one,
+    .catagory_two {
+        width: 253px;
+    }
+    /* header section responsive end */
+    /* Learn More. Book More. Earn More section responsive start*/
+    .section_two {
+        padding: 50px 30px;
+    }
+    .learn_more {
+        padding: 33px 0px;
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
+    }
+    .learn_more h1 {
+        font-weight: 300;
+        margin-bottom: 10px;
+    }
+    .services {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .services .card {
+        padding: 20px 30px;
+    }
+    .card_item::before {
+        height: 36px;
+        width: 240px;
+        top: 17px;
+    }
+    .services .card span {
+        background-color: rgb(197, 197, 71);
+    }
+    .services .card p {
+        font-weight: 300;
+    }
+    /* Learn More. Book More. Earn More section responsive end*/
+    .section_three {
+        background-color: antiquewhite;
+        padding: 50px 20px;
+    }
+    .access_the_left {
+        padding: 19px 0px;
+    }
+    .access_the {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .access_the_title::before {
+        width: 280px;
+        left: 73px;
+        top: 83px;
+    }
+    .access_the_right img {
+        width: 85%;
+        height: 380px;
+    }
+    .galary {
+        grid-template-columns: 1fr;
+    }
+    /* section six responsive start */
+    .section_six {
+        padding: 50px 20px;
+    }
+    .start_earning {
+        grid-template-columns: 1fr;
+    }
+    .start_earning_contant_info {
+        grid-template-columns: 1fr;
+    }
+    /* section six responsive end */
+    /* footer section responsive start */
+    footer {
+        padding: 50px 20px;
+    }
+    .footer_contant {
+        grid-template-columns: 1fr;
+    }
+    input[type=submit] {
+        padding: 10px 15px;
+        margin-left: 9px;
+    }
+    /* footer section responsive end */
+}
